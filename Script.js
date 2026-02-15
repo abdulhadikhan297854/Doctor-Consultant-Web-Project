@@ -1,20 +1,4 @@
-<<<<<<< Updated upstream
-const bar = document.getElementById("bar");
-const nav = document.getElementById("nav");
-const close = document.getElementById("close");
 
-if (bar) {
-  bar.addEventListener("click", () => {
-    nav.classList.add("active");
-  });
-}
-
-if (close) {
-  close.addEventListener("click", () => {
-    nav.classList.remove("active");
-  });
-}
-=======
 function showPage(pageId) {
             document.querySelectorAll('.page').forEach(page => {
                 page.classList.remove('active');
@@ -97,4 +81,4 @@ function showPage(pageId) {
                 document.getElementById('bookingSuccess').classList.remove('show');
             }, 3000);
         }
->>>>>>> Stashed changes
+

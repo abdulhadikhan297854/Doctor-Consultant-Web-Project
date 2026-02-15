@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Online Doctor Consulatant | By Hadi & Shams | Bano Qabil 4.0</title>
+</head>
+<body>
+    
+ <section id="header">
+      <div class="header">
+        <div class="Logo">
+          <img src="Img/Logo.png" alt="" class="logo-brand" />
+  
+        </div>
+        <div>
+          <ul id="nav">
+            <li><a href="index.html">Home</a></li>
+             <li><a href=ai.html>AI Symptom Checker</a></li>
+            <li><a href="doctor.html">Doctors</a></li>
+            <li><a href="blog.html">Blogs</a></li>
+            <li><a class="active" href="contactus.html">Contact</a></li>
+            <li>
+              <div class="phone-num">
+                <div class="phone">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div>
+                  <p>(+92)81 414 257</p>
+                </div>
+              </div>
+            </li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+          </ul>
+        </div>
+        <div id="mobile">
+          <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="h1">
+        <h1 style="text-align: center">Meet Our AI</h1>
+        <br />
+        <p style="text-align: center">Home > Contact</p>
+      </div>
+    </section>
+
+   <div class="page" id="symptom" style="  background:
+    linear-gradient(rgba(0, 23, 65, 0.935), rgba(0, 23, 65, 0.935)),
+    url(Img/hero\ bg.jpg);
+  background-repeat: no-repeat;">
+        <div class="container">
+            <h2 style="color: white;">AI Symptom Checker</h2>
+            <div class="symptom-checker">
+                <div class="chat-container" id="chatContainer">
+                    <div class="message ai">
+                        Hello! I'm your AI health assistant. Please describe your symptoms, and I'll help provide
+                        preliminary guidance. Remember, this is not a substitute for professional medical advice.
+                    </div>
+                </div>
+                <div class="input-container">
+                    <input type="text" class="symptom-input" id="symptomInput" placeholder="Describe your symptoms...">
+                    <button class="send-button" id="sendButton" onclick="sendSymptom()">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      <script src="Script.js"></script>
+</body>
+</html>
