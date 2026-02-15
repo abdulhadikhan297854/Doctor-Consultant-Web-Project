@@ -2890,8 +2890,9 @@ footer {
     margin-bottom: 3rem;
     position: relative;
   }
-  .main-content h1,p{
-    color: white;}
+   .main-content h1,p {
+    color: white;
+  }
   .doctor .sign {
     width: 40%;
     opacity: 0.2;
