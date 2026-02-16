@@ -44,6 +44,9 @@ a {
     opacity: 1;
   }
 }
+.intro .btn a{
+  text-decoration:none;
+}
 .scroll-right-about {
   animation: sliderightabout 1.8s ease-in;
   animation-timeline: view();
